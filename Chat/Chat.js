@@ -9,7 +9,7 @@
 // If there are more than 2 users, console.log the first two names in the users array and the number of additional users online.
 // For example, if there are 5 users, it should display:
 // name_user1, name_user2 and 3 more are online
-
+let numberUser = users.length
 let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"]
 
 if(numberUser===0){

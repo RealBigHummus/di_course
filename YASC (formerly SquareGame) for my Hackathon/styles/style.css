@@ -1,0 +1,76 @@
+:root{
+    --darkgray: #282a36;
+    --lightgray: #44475a;
+    --white: #f8f8f2;
+    --blueishgray: #4e5158;
+    --red: rgb(255, 81, 0);
+    --green: rgb(53, 146, 17);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #141313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+    color: var(--green);
+    
+
+}
+
+.title2{
+    font-size: 20px;
+    margin: 20px;
+    color: var(--green);
+
+}
+
+
+.container{
+    width: 85vh;
+    height: 85vh;
+}
+
+.board{
+    height: 100%;
+    width: 100%;
+    background-color: var(--brightblue);
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    
+}
+
+.cell{
+    background-color: var(--darkgray);
+    border: solid 1px var(--lightgray);
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--darkgray);
+}
+
+.cellsnake{
+    background-color: var(--green);
+    border: solid 1px var(--darkgray);
+
+}
+
+.cellfruit{
+    background-color: var(--red);
+    border: solid 1px var(--darkgray);
+
+}
+
+html,body {
+    background-image: url("C:/Users/Hod/Desktop/SqaureGame/styles/1532059091_MeagerForkedCavy-size_restricted");
+  }
