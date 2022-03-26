@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ImaJS.</title>
+</head>
+
+<body>
+    <h1 class="title">ImaJS. Upload photos, and recieve them from the server.</h1> 
+    <h2 class="title2" style=><i>Press on "Upload file" to upload a file. Only photos though! If you upload anything else it might not be displayed well.</i></h2>
+    <style>
+        body {
+          
+  align-items: center;
+        }
+        </style>
+
+<div class="container">
+  <form method="POST" action="/profile-upload-single" enctype="multipart/form-data">
+    <div>
+        <label>Upload picture</label>
+        <input type="file" name="profile-file" required/>
+    </div>
+    <div>
+        <input type="submit" value="Upload" />
+    </div>
+</form>
+<form method="POST" action="/profile-upload-multiple" enctype="multipart/form-data">
+  <div>
+      <label>Upload multiple pictures</label>
+      <input type="file" name="profile-files" required multiple  />
+  </div>
+  <div>
+      <input type="submit" value="Upload" />
+  </div>
+</form>
+</div>
+<div>
+  
+</div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,2 @@
+C:\Users\Hod\Desktop\SqaureGame\styles
+    text = ["Hey Dan please give me a good grade", "Do you know who is Joe?", "I know, such a creative idea.", "Listen, I am working on SqareGame, but Snake is good too,
